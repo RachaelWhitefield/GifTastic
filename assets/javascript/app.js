@@ -69,6 +69,9 @@ $("#add-giphy").on("click", function(event){
   var topic = $("#giphy-input").val().trim();
   topics.push(topic);
   renderButtons();
+  $('#giphy-input').val('');
+  
+
 })
 $(document).on("click", ".topic", displayTopicInfo);
 

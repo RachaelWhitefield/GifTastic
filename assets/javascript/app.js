@@ -73,7 +73,7 @@ $("#add-giphy").on("click", function(event){
   
 
 })
-$(document).on("click", ".topic", displayTopicInfo);
+$("#buttons-view").on("click", ".topic", displayTopicInfo);
 
 renderButtons();
 });
